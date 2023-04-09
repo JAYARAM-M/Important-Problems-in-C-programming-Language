@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,a,i,b;
+    cout<<"enter a number:";
+    cin>>a;
+     cout<<"enter a number:";
+    cin>>b;
+    
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    
+     cout<<"A number:"<<a<<endl;
+     cout<<"B number:"<<b<<endl;
+       
+}
