@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,a=2,b=3;
+    cout<<"Enter a number";
+    cin>>n;
+    cout<<"the prime numbers are"<<a<<endl;
+    cout<<"the prime numbers are"<<b<<endl;
+    for(int i=1;i<n;i++)
+    {
+    if(i%a!=0 && i%b!=0 )
+    {
+        cout<<"the prime numbers are"<<i<<endl;
+        
+    }
+    }
+    return 0;
+}
