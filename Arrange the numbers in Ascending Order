@@ -1,0 +1,31 @@
+   #include <stdio.h>
+    void main()
+    {
+ 
+        int i, j, a, number[]={1,5,4,2,6,3};
+        int n=sizeof(number)/sizeof(number[0]);
+ 
+        for (i = 0; i < n; ++i) 
+        {
+ 
+            for (j = i + 1; j < n; ++j)
+            {
+ 
+                if (number[i] > number[j]) 
+                {
+ 
+                    a =  number[j];
+                    number[j] = number[i];
+                    number[i] = a;
+ 
+                }
+ 
+            }
+ 
+        }
+ 
+        printf("The numbers arranged in ascending order are given below \n");
+        for (i = 0; i < n; ++i)
+            printf("%d\n", number[i]);
+ 
+    }
